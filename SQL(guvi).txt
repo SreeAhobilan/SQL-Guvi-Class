@@ -1,0 +1,12 @@
+//DAY-37 MY SQL TASK TO CREATE GUVI ZEN CLASS database
+
+QUESTION-Design DB model for Guvi Zen class Student Collection Batch Collection Task Collection Mentor Collection?
+
+ANS:
+CREATE TABLE ZENCLASS(No INTEGER, Student TEXT,Batch TEXT, Task TEXT, Mentor TEXT);
+INSERT INTO ZENCLASS(No,Student,Batch,TASK,Mentor)
+VALUES(1,"Arun","B-20WD","CREATE CRUD OPERATION","RAGHAV"),
+(2,"Uma","B-21WE","CREATE CRUD OPERATION","SUMAN"),
+(3,"Shankar"B-22WD","CREATE CRUD OPERATION","LAVISH"),
+(4,"John","B-23WE","CREATE CRUD OPERATION","MARIAPPAN"),
+(5,"Syed","B-24WD","CREATE CRUD OPERATION","RAGHAV");
